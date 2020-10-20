@@ -1,5 +1,6 @@
 # setting svn before building
 
 before_install:
+  - pwd
   - echo "commit $GIT_COMMIT"
   - echo $GIT_COMMIT > version.txt

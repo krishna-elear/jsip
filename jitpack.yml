@@ -1,0 +1,4 @@
+# setting svn before building
+
+before_install:
+  - apt-get install subversion

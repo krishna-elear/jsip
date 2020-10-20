@@ -872,7 +872,7 @@ c:/jakarta-ant/bin/ant all
 
 
               <target name="svn-revision">
-                 <exec executable="svnversion" spawn="false" dir="./" output="version.txt">
+                 <exec executable="echo $GIT_COMMIT" spawn="false" dir="./" output="version.txt">
                  <arg line="."/>
               </exec>
               </target>

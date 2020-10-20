@@ -1,9 +1,9 @@
 package examples.android.simplecallsetup;
 
-import android.javax.sip.*;
-import android.javax.sip.address.*;
-import android.javax.sip.header.*;
-import android.javax.sip.message.*;
+import javax.sip.*;
+import javax.sip.address.*;
+import javax.sip.header.*;
+import javax.sip.message.*;
 
 import org.apache.log4j.ConsoleAppender;
 import org.apache.log4j.Level;
@@ -237,7 +237,7 @@ public class Shootme implements SipListener {
         }
     }
 
-    public void processTimeout(android.javax.sip.TimeoutEvent timeoutEvent) {
+    public void processTimeout(javax.sip.TimeoutEvent timeoutEvent) {
         Transaction transaction;
         if (timeoutEvent.isServerTransaction()) {
             transaction = timeoutEvent.getServerTransaction();

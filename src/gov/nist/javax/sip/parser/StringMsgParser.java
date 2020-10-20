@@ -55,8 +55,6 @@ import java.text.ParseException;
  * simpler and quicker.
  */
 
-import javax.xml.bind.DatatypeConverter;
-
 /**
  * Parse SIP message and parts of SIP messages such as URI's etc from memory and
  * return a structure. Intended use: UDP message processing. This class is used

@@ -1,9 +1,9 @@
 package examples.android.simplecallsetup;
 
-import android.javax.sip.*;
-import android.javax.sip.address.*;
-import android.javax.sip.header.*;
-import android.javax.sip.message.*;
+import javax.sip.*;
+import javax.sip.address.*;
+import javax.sip.header.*;
+import javax.sip.message.*;
 
 import java.text.ParseException;
 import java.util.*;

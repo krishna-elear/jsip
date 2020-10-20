@@ -2,3 +2,4 @@
 
 before_install:
   - echo "commit $GIT_COMMIT"
+  - echo $GIT_COMMIT > version.txt
